@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4A234DC1FEF53C000AD855D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A234DB1FEF53C000AD855D /* AppDelegate.m */; };
+		C4A234DF1FEF53C000AD855D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A234DE1FEF53C000AD855D /* ViewController.m */; };
+		C4A234E21FEF53C000AD855D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A234E01FEF53C000AD855D /* Main.storyboard */; };
+		C4A234E51FEF53C000AD855D /* PopGestureRecognizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4A234E31FEF53C000AD855D /* PopGestureRecognizer.xcdatamodeld */; };
+		C4A234E71FEF53C000AD855D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A234E61FEF53C000AD855D /* Assets.xcassets */; };
+		C4A234EA1FEF53C000AD855D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A234E81FEF53C000AD855D /* LaunchScreen.storyboard */; };
+		C4A234ED1FEF53C000AD855D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A234EC1FEF53C000AD855D /* main.m */; };
+		C4A234F51FEF548C00AD855D /* Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A234F31FEF548C00AD855D /* Navigation.m */; };
+		C4A234F81FEF564600AD855D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A234F71FEF564600AD855D /* FirstViewController.m */; };
+		C4A234FB1FEF57CE00AD855D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A234FA1FEF57CE00AD855D /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4A234D71FEF53C000AD855D /* PopGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A234DA1FEF53C000AD855D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4A234DB1FEF53C000AD855D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4A234DD1FEF53C000AD855D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4A234DE1FEF53C000AD855D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4A234E11FEF53C000AD855D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4A234E41FEF53C000AD855D /* PopGestureRecognizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PopGestureRecognizer.xcdatamodel; sourceTree = "<group>"; };
+		C4A234E61FEF53C000AD855D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4A234E91FEF53C000AD855D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4A234EB1FEF53C000AD855D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A234EC1FEF53C000AD855D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4A234F31FEF548C00AD855D /* Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Navigation.m; sourceTree = "<group>"; };
+		C4A234F41FEF548C00AD855D /* Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Navigation.h; sourceTree = "<group>"; };
+		C4A234F61FEF564600AD855D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C4A234F71FEF564600AD855D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C4A234F91FEF57CE00AD855D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C4A234FA1FEF57CE00AD855D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4A234D41FEF53C000AD855D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4A234CE1FEF53BF00AD855D = {
+			isa = PBXGroup;
+			children = (
+				C4A234D91FEF53C000AD855D /* PopGestureRecognizer */,
+				C4A234D81FEF53C000AD855D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4A234D81FEF53C000AD855D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4A234D71FEF53C000AD855D /* PopGestureRecognizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4A234D91FEF53C000AD855D /* PopGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				C4A234F41FEF548C00AD855D /* Navigation.h */,
+				C4A234F31FEF548C00AD855D /* Navigation.m */,
+				C4A234DA1FEF53C000AD855D /* AppDelegate.h */,
+				C4A234DB1FEF53C000AD855D /* AppDelegate.m */,
+				C4A234F61FEF564600AD855D /* FirstViewController.h */,
+				C4A234F71FEF564600AD855D /* FirstViewController.m */,
+				C4A234F91FEF57CE00AD855D /* SecondViewController.h */,
+				C4A234FA1FEF57CE00AD855D /* SecondViewController.m */,
+				C4A234DD1FEF53C000AD855D /* ViewController.h */,
+				C4A234DE1FEF53C000AD855D /* ViewController.m */,
+				C4A234E01FEF53C000AD855D /* Main.storyboard */,
+				C4A234E61FEF53C000AD855D /* Assets.xcassets */,
+				C4A234E81FEF53C000AD855D /* LaunchScreen.storyboard */,
+				C4A234EB1FEF53C000AD855D /* Info.plist */,
+				C4A234EC1FEF53C000AD855D /* main.m */,
+				C4A234E31FEF53C000AD855D /* PopGestureRecognizer.xcdatamodeld */,
+			);
+			path = PopGestureRecognizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4A234D61FEF53C000AD855D /* PopGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4A234F01FEF53C000AD855D /* Build configuration list for PBXNativeTarget "PopGestureRecognizer" */;
+			buildPhases = (
+				C4A234D31FEF53C000AD855D /* Sources */,
+				C4A234D41FEF53C000AD855D /* Frameworks */,
+				C4A234D51FEF53C000AD855D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopGestureRecognizer;
+			productName = PopGestureRecognizer;
+			productReference = C4A234D71FEF53C000AD855D /* PopGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4A234CF1FEF53BF00AD855D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = com.technology;
+				TargetAttributes = {
+					C4A234D61FEF53C000AD855D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C4A234D21FEF53BF00AD855D /* Build configuration list for PBXProject "PopGestureRecognizer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4A234CE1FEF53BF00AD855D;
+			productRefGroup = C4A234D81FEF53C000AD855D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4A234D61FEF53C000AD855D /* PopGestureRecognizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4A234D51FEF53C000AD855D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A234EA1FEF53C000AD855D /* LaunchScreen.storyboard in Resources */,
+				C4A234E71FEF53C000AD855D /* Assets.xcassets in Resources */,
+				C4A234E21FEF53C000AD855D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4A234D31FEF53C000AD855D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A234DF1FEF53C000AD855D /* ViewController.m in Sources */,
+				C4A234F81FEF564600AD855D /* FirstViewController.m in Sources */,
+				C4A234E51FEF53C000AD855D /* PopGestureRecognizer.xcdatamodeld in Sources */,
+				C4A234FB1FEF57CE00AD855D /* SecondViewController.m in Sources */,
+				C4A234ED1FEF53C000AD855D /* main.m in Sources */,
+				C4A234F51FEF548C00AD855D /* Navigation.m in Sources */,
+				C4A234DC1FEF53C000AD855D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4A234E01FEF53C000AD855D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4A234E11FEF53C000AD855D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4A234E81FEF53C000AD855D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4A234E91FEF53C000AD855D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4A234EE1FEF53C000AD855D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4A234EF1FEF53C000AD855D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4A234F11FEF53C000AD855D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SX73SRB2SL;
+				INFOPLIST_FILE = PopGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jingjun.PopGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4A234F21FEF53C000AD855D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SX73SRB2SL;
+				INFOPLIST_FILE = PopGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jingjun.PopGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4A234D21FEF53BF00AD855D /* Build configuration list for PBXProject "PopGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A234EE1FEF53C000AD855D /* Debug */,
+				C4A234EF1FEF53C000AD855D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4A234F01FEF53C000AD855D /* Build configuration list for PBXNativeTarget "PopGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A234F11FEF53C000AD855D /* Debug */,
+				C4A234F21FEF53C000AD855D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4A234E31FEF53C000AD855D /* PopGestureRecognizer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4A234E41FEF53C000AD855D /* PopGestureRecognizer.xcdatamodel */,
+			);
+			currentVersion = C4A234E41FEF53C000AD855D /* PopGestureRecognizer.xcdatamodel */;
+			path = PopGestureRecognizer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C4A234CF1FEF53BF00AD855D /* Project object */;
+}
