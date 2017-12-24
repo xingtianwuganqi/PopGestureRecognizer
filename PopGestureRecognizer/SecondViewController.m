@@ -31,6 +31,16 @@
         UIView *view = [[UIView alloc]initWithFrame:CGRectMake(i * [UIScreen mainScreen].bounds.size.width, 0, [UIScreen mainScreen].bounds.size.width, self.view.frame.size.height)];
         view.backgroundColor = arr[i];
         [scroll addSubview:view];
+        
+        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(30, self.view.frame.size.width / 3, [UIScreen mainScreen].bounds.size.width - 60, 80)];
+        label.text = @"第二页view有一个scrollview,在scrollview边缘会触发右划返回手势，在其他地方滑动触发scollview滚动手势，相比全屏侧滑返回手势，减少了其他手势与右划手势的冲突，相对系统自带的侧滑手势更加简单";
+        label.font = [UIFont systemFontOfSize:16];
+        label.textAlignment = NSTextAlignmentCenter;
+        label.textColor = [UIColor whiteColor];
+        [self.view addSubview:label];
+        
+        [view addSubview:label];
+        
     }
 }
 - (void)didReceiveMemoryWarning {

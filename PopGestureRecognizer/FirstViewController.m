@@ -7,7 +7,7 @@
 //
 
 #import "FirstViewController.h"
-
+#import "SecondViewController.h"
 @interface FirstViewController ()
 
 @end
@@ -19,8 +19,18 @@
     // Do any additional setup after loading the view.
     self.title = @"第一页";
     self.view.backgroundColor = [UIColor redColor];
+    
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(30, self.view.frame.size.width / 3, [UIScreen mainScreen].bounds.size.width - 60, 80)];
+    label.text = @"点击屏幕跳转";
+    label.font = [UIFont systemFontOfSize:16];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.textColor = [UIColor whiteColor];
+    [self.view addSubview:label];
 }
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    SecondViewController *second = [[SecondViewController alloc]init];
+    [self.navigationController pushViewController:second animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
